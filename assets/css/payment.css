@@ -1,0 +1,25 @@
+#payment-second
+{
+    padding-top: 30px;
+}
+#payment-second-main-content
+{
+    background-color: white;
+    height: 400px;
+    margin-top: 30px;
+    color: rgb(140,156,162);
+    text-align: center;
+    padding-top: 20%;
+}
+@media only screen and (max-width: 767px)
+{
+    #payment-second-main-content
+    {
+        /* background-color: white; */
+        height: 200px;
+        margin-top: 30px;
+        color: rgb(140,156,162);
+        text-align: center;
+        padding-top: 20%;
+    }
+}

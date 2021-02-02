@@ -1,0 +1,431 @@
+/* body color */
+body {
+    background-color: rgba(233, 233, 233, 0.959);
+}
+
+/* image slider */
+.image {
+    height: 470px;
+}
+
+/* slider container */
+.containerhu {
+    margin: 0 200px 0 200px;
+    /* background-color: brown; */
+}
+
+#section-bodyfirst {
+    margin: 20px 0 0 0;
+    background-image: linear-gradient(rgb(126, 176, 189), rgba(57, 202, 247, 0.842));
+}
+
+/* Red color font */
+.colored {
+    color: black;
+    font-size: 30px;
+}
+
+.add {
+    display: flex;
+    margin: 0px !important;
+}
+
+
+/* Color hover */
+.colored:hover {
+    color: #f94343;
+    cursor: pointer;
+}
+
+/* Green color font */
+.cologreen {
+    color: black;
+    font-size: 30px;
+}
+
+/* color hover */
+.cologreen:hover {
+    color: #49940c;
+}
+
+/* bLUE COLOR FONT */
+.colorblue {
+    color: black;
+    font-size: 30px;
+}
+
+/* color hover */
+.colorblue:hover {
+    color: #5e43f9;
+}
+
+.sectionframe {
+    margin: 20px 0 0 0;
+}
+
+.imagecolor {
+    height: 400px;
+    width: 100%;
+}
+
+/* Card border */
+.card {
+    background-color: none;
+    border: none;
+    box-shadow: 2px 3px #5e5e5e;
+    /* border-right: 1px solid black; */
+    /* border-radius: 0;s */
+    cursor: pointer;
+}
+
+.card:hover {
+    background-color: rgba(220, 220, 220, 0.911);
+
+}
+
+/* text border */
+.bor {
+    /* border: 1px solid rgb(21, 86, 160); */
+    /* border-radius: 20% 20% 20% 20%; */
+    background-color: #4de0cd;
+}
+
+.res {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.photomy {
+    height: 400px;
+    width: 400px;
+}
+
+.newpad {
+    padding: 20px;
+}
+
+.circle-hov:hover {
+    width: 160px;
+    height: 160px;
+}
+
+.titlehe {
+    font: 1em sans-serif;
+    color: chocolate;
+}
+
+/* title button */
+.btn-pri {
+    background-color: white;
+    border: 1px solid chocolate;
+    border-radius: 0;
+    color: chocolate;
+}
+
+.btn-pri:hover {
+    background-color: chocolate;
+    border: 1px solid white;
+    border-radius: 0;
+    color: white;
+}
+
+/* CARD STYLE */
+.card {
+    cursor: pointer;
+    /* height: 100%; */
+    width: 190px;
+    height: auto;
+    margin: 0;
+
+}
+
+/* CARD HOVER */
+.card:hover {
+    box-shadow: 0 2px 2px rgba(102, 100, 100, 0.548);
+}
+
+/* PHOTO SIZE */
+.photoof {
+    /* height: 100%; */
+    width: 188px;
+    height: 188px;
+}
+
+/* TEXT COLOR */
+.price {
+    color: chocolate;
+    font: 1em sans-serif;
+}
+
+.discountper {
+    color: black;
+    font: .8em sans-serif;
+}
+
+.discountpri {
+    color: rgb(143, 135, 135);
+}
+.btn-buy {
+    background-color: rgb(19, 241, 241);
+    border: 1px solid wheat;
+    padding: 10px 50px;
+    border-radius: 0;
+    color: black;
+}
+
+.btn-buy:hover {
+    background-color: rgba(0, 197, 197, 0.856);
+    border: 1px solid white;
+    border-radius: 0;
+    color: white;
+}
+.btn-cart {
+    background-color: rgba(231, 133, 4, 0.856);
+    border: 1px solid wheat;
+    padding: 10px 50px;
+    border-radius: 0;
+    color: black;
+}
+
+.btn-cart:hover {
+    background-color: rgba(197, 112, 0, 0.856);
+    border: 1px solid white;
+    border-radius: 0;
+    color: white;
+}
+.btn-change
+{
+    color: blue !important;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 600px) {
+
+    #sectionfirst {
+        margin: 40px 0 0 0;
+        background-image: linear-gradient(rgb(126, 176, 189), rgba(57, 202, 247, 0.842));
+    }
+
+    .containerhu {
+        margin: 0 20px 0 20px;
+        /* background-color: brown; */
+    }
+
+    /* image slider */
+    .image {
+        height: 170px;
+    }
+
+    .textlarge {
+        font: 1em sans-serif;
+    }
+
+    .textlittle {
+        font: 1em sans-serif;
+    }
+
+    .imagecolor {
+        height: 150px;
+        width: 100%;
+    }
+
+    .res {
+        margin-top: 10px;
+    }
+
+    /* CARD STYLE */
+    .card {
+        cursor: pointer;
+        width: auto;
+        height: auto;
+        margin: 0;
+
+    }
+
+    .res {
+        margin-top: 10px;
+        margin-right: 20px;
+    }
+
+    .phototit {
+        font: .8em sans-serif;
+    }
+
+    .photomy {
+        height: 200px;
+        width: 100%;
+    }
+
+    /* PHOTO SIZE */
+    .photoof {
+        /* height: 100%; */
+        width: 200px !important;
+        height: 200px !important;
+    }
+    .paddi
+    {
+        padding-top: 20px;
+    }
+
+
+}
+
+@media (min-width: 601px) and (max-width: 1200px) {
+    #sectionfirst {
+        margin: 0 0 0 0;
+        background-image: linear-gradient(rgb(126, 176, 189), rgba(57, 202, 247, 0.842));
+    }
+
+    .textlarge {
+        font: 1em sans-serif;
+    }
+
+    .textlittle {
+        font: 1em sans-serif;
+    }
+
+    .imagecolor {
+        height: 250px;
+        width: 100%;
+    }
+
+    .res {
+        margin-top: 10px;
+        margin-right: 20px;
+    }
+
+}
+
+/* rating is here*/
+/* Base setup */
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+
+/* Ratings widget */
+.rate {
+    display: inline-block;
+    border: 0;
+}
+
+/* Hide radio */
+.rate>input {
+    display: none;
+}
+
+/* Order correctly by floating highest to the right */
+.rate>label {
+    float: right;
+}
+
+/* The star of the show */
+.rate>label:before {
+    display: inline-block;
+    font-size: 1.1rem;
+    padding: .3rem .2rem;
+    margin: 0;
+    cursor: pointer;
+    font-family: FontAwesome;
+    content: "\f005 ";
+    /* full star */
+}
+
+/* Zero stars rating */
+.rate>label:last-child:before {
+    content: "\f006 ";
+    /* empty star outline */
+}
+
+/* Half star trick */
+.rate .half:before {
+    content: "\f089 ";
+    /* half star no outline */
+    position: absolute;
+    padding-right: 0;
+}
+
+/* Click + hover color */
+input:checked~label,
+/* color current and previous stars on checked */
+label:hover,
+label:hover~label {
+    color: rgb(245, 221, 8);
+}
+
+/* color previous stars on hover */
+
+/* Hover highlights */
+input:checked+label:hover,
+input:checked~label:hover,
+/* highlight current and previous stars */
+input:checked~label:hover~label,
+/* highlight previous selected stars for new rating */
+label:hover~input:checked~label
+
+/* highlight previous selected stars */
+    {
+    color: #A6E72D;
+}
+
+/* quantity */
+/* -- quantity box -- */
+
+.quantity {
+    display: inline-block;
+}
+
+.quantity .input-text.qty {
+    width: 35px;
+    height: 39px;
+    padding: 0 5px;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid #efefef;
+}
+
+.quantity.buttons_added {
+    text-align: left;
+    position: relative;
+    white-space: nowrap;
+    vertical-align: top;
+}
+
+.quantity.buttons_added input {
+    display: inline-block;
+    margin: 0;
+    vertical-align: top;
+    box-shadow: none;
+}
+
+.quantity.buttons_added .minus,
+.quantity.buttons_added .plus {
+    padding: 7px 10px 8px;
+    height: 41px;
+    background-color: #ffffff;
+    border: 1px solid #efefef;
+    cursor: pointer;
+}
+
+.quantity.buttons_added .minus {
+    border-right: 0;
+}
+
+.quantity.buttons_added .plus {
+    border-left: 0;
+}
+
+.quantity.buttons_added .minus:hover,
+.quantity.buttons_added .plus:hover {
+    background: #eeeeee;
+}
+
+.quantity input::-webkit-outer-spin-button,
+.quantity input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    margin: 0;
+}
+
+.quantity.buttons_added .minus:focus,
+.quantity.buttons_added .plus:focus {
+    outline: none;
+}

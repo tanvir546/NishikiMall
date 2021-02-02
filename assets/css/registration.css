@@ -1,0 +1,257 @@
+#reg-first
+{
+    background-color: rgb(239,240,245);
+    height: 700px;
+}
+#reg-first-maintext
+{
+    padding-top: 50px;
+    font-size: 25px;
+}
+#reg-first-loglink
+{
+    text-align: right;
+}
+@media only screen and (max-width: 767px)
+{
+    #reg-first
+    {
+        background-color: #FFFFFF;
+        height: 1000px;
+    }
+    #reg-first-maintext
+    {
+        padding-top: 50px;
+        font-size: 15px;
+        text-align: center;
+    }
+    #reg-first-loglink
+    {
+        font-size: 10px;
+        text-align: center;
+    }
+    #reg-first-regform
+{
+    /* padding-top: 20px; */
+    /* text-align: center; */
+    background-color: #FFFFFF;
+    height: 900px;
+}
+}
+#reg-first-regform
+{
+    padding-top: 20px;
+    /* text-align: center; */
+    background-color: #FFFFFF;
+    height: 500px;
+}
+#verification
+{
+    padding-top: 10px;
+}
+#password
+{
+    padding-top: 10px; 
+}
+#birthday
+{
+    padding-top: 10px;
+}
+#gender
+{
+    padding-top: 10px;
+}
+#email
+{
+    padding-top: 10px;
+}
+.form-check
+{
+    padding-top: 10px;
+}
+.signup {
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    padding: 8px 34.5%;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-transform: uppercase;
+
+    background-color: rgb(0,176,51); 
+    color: white; 
+    /* font-family: 'Contrail One', cursive; */
+    font-size: 20px;
+    /* border: 2px solid rgb(245,114,36); */
+  }
+  
+  .signup:hover {
+    background-color: rgb(37, 144, 68);
+    color: white;
+  }
+  #other-text
+  {
+      padding-top: 15px;
+  }
+  .reg-control-left
+  {
+    display: block;
+    /* width: 100%; */
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 8.75rem;
+    /* text-align: left !important ; */
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #F5F5F5;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  .reg-control-right
+  {
+    display: block;
+    /* width: 100%; */
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 7.75rem;
+    /* text-align: left !important ; */
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #F5F5F5;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  @media only screen and (max-width: 767px)
+{
+    .reg-control-left
+  {
+    display: block;
+    /* width: 100%; */
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 3.75rem;
+    /* text-align: left !important ; */
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #F5F5F5;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  .reg-control-right
+  {
+    display: block;
+    /* width: 100%; */
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 3.75rem;
+    /* text-align: left !important ; */
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #F5F5F5;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  .signup {
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    padding: 8px 43%;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-transform: uppercase;
+
+    background-color: rgb(0,176,51); 
+    color: white; 
+    /* font-family: 'Contrail One', cursive; */
+    font-size: 20px;
+    /* border: 2px solid rgb(245,114,36); */
+  }
+  
+}
+.facebook {
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    padding: 8px 12%;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-transform: uppercase;
+
+    background-color: rgb(59,89,152); 
+    color: white; 
+    /* font-family: 'Contrail One', cursive; */
+    font-size: 20px;
+    /* border: 2px solid rgb(245,114,36); */
+  }
+  .google {
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    padding: 8px 11%;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-transform: uppercase;
+
+    background-color: rgb(211,72,54); 
+    color: white; 
+    /* font-family: 'Contrail One', cursive; */
+    font-size: 20px;
+    /* border: 2px solid rgb(245,114,36); */
+  }
+  @media only screen and (max-width: 767px)
+  {
+    .facebook {
+        margin-top: 10px;
+        border-radius: 5px;
+        border: none;
+        padding: 8px 8%;
+        text-decoration: none;
+        display: inline-block;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        text-transform: uppercase;
+    
+        background-color: rgb(59,89,152); 
+        color: white; 
+        /* font-family: 'Contrail One', cursive; */
+        font-size: 20px;
+        /* border: 2px solid rgb(245,114,36); */
+      }
+      .google {
+        margin-top: 10px;
+        border-radius: 5px;
+        border: none;
+        padding: 8px 9%;
+        text-decoration: none;
+        display: inline-block;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        text-transform: uppercase;
+    
+        background-color: rgb(211,72,54); 
+        color: white; 
+        /* font-family: 'Contrail One', cursive; */
+        font-size: 20px;
+        /* border: 2px solid rgb(245,114,36); */
+      }
+  }

@@ -1,0 +1,53 @@
+#address-main-content
+{
+    background-color: white;
+    height: 400px;
+    margin-top: 30px;
+}
+#address-main-contant-bar
+{
+    background-color:rgb(250,250,250) ;
+    padding-top: 10px;
+    height: 50px;
+    margin-top: 30px;
+}
+#address-main-contant-details
+{
+    padding-top: 30px;
+}
+.a-btn
+{
+    padding: 10px 15px;
+    border-radius: 2px;
+    border: none;
+}
+#button
+{
+    text-align: right;
+}
+.add-btn
+{
+    padding: 8px 40px;
+    background-color:rgb(26,167,205) ;
+    border: none;
+    border-radius: 2px;
+}
+@media only screen and (max-width: 767px)
+{
+    section-address-second-col
+    {
+        margin-top: 30px;
+        font-size: 10px;
+    }
+    #address-main-contant-bar
+    {
+        /* background-color:rgb(250,250,250) ; */
+        padding-top: 10px;
+        /* height: 50px; */
+        margin-top: 30px;
+    }
+    #address-main-contant-details
+    {
+        padding-top: 150px;
+    }
+}

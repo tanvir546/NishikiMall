@@ -1,0 +1,61 @@
+#section-profile-main-col
+{
+    background-color: white;
+    height: 500px;
+    padding-top: 30px;
+    margin-top: 20px;
+}
+.pro
+{
+    padding-left: 50px;
+}
+.sub-pro
+{
+    padding-top: 30px;
+}
+.s-btn {
+    border-radius: 2px;
+    border: none;
+    padding: 9px 70px;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    /* text-transform: uppercase; */
+
+    background-color: rgb(26,167,205); 
+    color: white; 
+    /* font-family: 'Contrail One', cursive; */
+    font-size: 15px;
+    /* border: 2px solid rgb(245,114,36); */
+  }
+  
+  .s-btn:hover {
+    background-color: rgb(65, 131, 149);
+    color: white;
+  }
+  .s-sbtn {
+    border-radius: 2px;
+    border: none;
+    padding: 9px 48px;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    /* text-transform: uppercase; */
+
+    background-color: rgb(26,167,205); 
+    color: white; 
+    /* font-family: 'Contrail One', cursive; */
+    font-size: 15px;
+    /* border: 2px solid rgb(245,114,36); */
+  }
+  
+  .s-sbtn:hover {
+    background-color: rgb(65, 131, 149);
+    color: white;
+  }
+  #sbutton
+  {
+      padding-top: 100px;
+  }

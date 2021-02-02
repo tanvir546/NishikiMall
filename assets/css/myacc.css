@@ -1,0 +1,66 @@
+.btn-myre
+{
+    background-color: transparent;
+    border: 2px solid peru;
+    color: peru;
+    font-size: 15px;
+    padding: 5px 10px;
+
+}
+.centerdiv
+{
+    margin-top: 200px;
+}
+.btn-rev
+{
+    background-color: transparent;
+    border: none;cursor: pointer;
+}
+.btn-rev:hover
+{
+    border-bottom: 2px solid peru;
+    color: peru;
+}
+.btn-rev:focus
+{
+    outline: none;
+}
+#secmy .jumbotron
+{
+    background-color: wheat;
+    height: 300px;
+}
+.btn-addcar
+{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: smaller;
+    color: teal;
+}
+.btn-myre:focus 
+{
+    outline: none;
+
+}
+#secmy a:hover
+{
+    text-decoration: none;
+
+}
+.w3-button
+{
+    
+    border: 1px solid black !important;
+}
+.w3-button:hover
+{
+    
+    border: 1px solid black !important;
+    background-color: peru !important;
+}
+.w3-button:focus
+{
+    
+    outline: none;
+}

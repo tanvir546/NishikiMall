@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+    <link rel="stylesheet" href="./../assets/css/bootstrap.css">
+    <link rel="stylesheet" href="./../assets/css/nav.css">
+    <!-- <link rel="stylesheet" href="./../assets/css/myaccount.css"> -->
+    <link rel="stylesheet" href="./../assets/css/admin.css">
+</head>
+<body>
+    <!-- <header id="fnav">
+        <nav class="navbar navbar-light bg-light justify-content-between  container" id="fnav">
+            <div id="top_nav">
+                <a href="">Save More On App</a>
+                <a href="">Sell On Nishiki</a>
+                <a href="">Customer Card</a>
+                <a href="">Track My Order</a>
+                <a href="./login.html">Login</a>
+                <a href="./registration.html">Signup</a>
+                <a href="./product.html">Product</a>
+                <a href="./profile.html">Profile</a>
+            </div>
+
+        </nav>
+    </header> -->
+
+    <header id="snav">
+        <nav class="navbar navbar-light bg-light justify-content-between container">
+            <a class="navbar-brand" href="./home.html"><img src="./../assets/img/logo.gif" height="auto" width="50%" alt=""></a>
+            <form class="form-inline">
+                <input class="nav-search-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button href="#" class="button search-btn">Search</button>
+                <div id="card-logo">
+                    <i class="fas fa-cart-plus fa-2x"></i>
+                </div>
+
+            </form>
+        </nav>
+
+    </header>
+    <!-- <header id="tnav">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light container" id="tnav">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse text-center" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Categories
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-truck"></i> Fastest Delivery <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-dollar-sign"></i> Free Discount</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-globe-americas"></i> Global Collection</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-cart-plus"></i> NishikiMall</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fab fa-app-store-ios"></i> Recharge & eStore</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header> -->
+    <main>
+
+        <section id="admin">
+            <div class="section-body container" id="main-contant">
+                <div class="row">
+                    <div class="col-md-2" id="admin-first">
+                        <div id="but">
+                            <a href="" style="color: rgb(118,163,244);">Manage</a><br>
+                            <a href="" style="color: rgb(118,163,244);">Userinfo</a> <br>
+                            <a href="" style="color: rgb(118,163,244);">Product</a><br>
+                            <a href="" style="color: rgb(118,163,244);">Order</a><br>
+                            <a href="" style="color: rgb(118,163,244);">System</a><br>
+                            <a href="" style="color: rgb(118,163,244);">Setting</a>
+                        </div>
+                    </div>
+                    <div class="col-md-1 bcol" id="admin-second">
+                        <div id="but-sec">
+                            <a href="">Product</a>
+                            <a href="">Category</a>
+                            <a href="">Soldout</a>
+                            <a href="">Record</a>
+
+                        </div>
+                    </div>
+                    <div class="col-md-9 bcol" id="admin-third">
+                        <h4>Product List</h4>
+
+                        <!-- <label for="cars">Choose a car:</label> -->
+                        <div id="drob-box">
+                            <select id="batch">
+                                <option value="volvo">Batch</option>
+                                <option value="saab">Saab</option>
+                                <option value="mercedes">Mercedes</option>
+                                <option value="audi">Audi</option>
+                            </select>
+                            <select id="all-product">
+                                <option value="volvo">All Product</option>
+                                <option value="saab">Saab</option>
+                                <option value="mercedes">Mercedes</option>
+                                <option value="audi">Audi</option>
+                            </select>
+                            <select id="all-type">
+                                <option value="volvo">AllType</option>
+                                <option value="saab">Saab</option>
+                                <option value="mercedes">Mercedes</option>
+                                <option value="audi">Audi</option>
+                            </select>
+                        </div>
+                        <div class="section-body container">
+                            <div class="row">
+                                <div class="col-md-2 sub-con" id="pid">
+                                    <p>PID</p>
+                                    <div>
+                                        <p>Backpack</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-1 sub-con" id="img">
+                                    <p>IMAGE</p>
+                                    <div>
+                                        <p>NULL</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-2 sub-con" id="pname">
+                                    <p>PRODUCT NAME</p>
+                                    <div>
+                                        <p>Noveli Backpack</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-2 sub-con" id="price">
+                                    <p>PRICE</p>
+                                    <div>
+                                        <p>1500 BDT</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-1 sub-con" id="stock">
+                                    <p>STOCK</p>
+                                    <div>
+                                        <p>250</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-1 sub-con" id="sala">
+                                    <p>SALA</p>
+                                    <div>
+                                        <p>105</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-2 sub-con" id="putaway">
+                                    <p>PUTAWAY</p>
+                                    <div>
+                                        <i class="far fa-check-circle" style="padding-left:25px;"></i>
+                                    </div>
+                                </div>
+                                <div class="col-md-1 sub-con" id="operate">
+                                    <p>OPERATE</p>
+                                    <div>
+                                        <button href="#" class="button edit-btn">EDIT</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+    </main>
+    <!-- ICON LINK -->
+    <script src="https://kit.fontawesome.com/ef03c7fd35.js" crossorigin="anonymous">
+    </script>
+</body>

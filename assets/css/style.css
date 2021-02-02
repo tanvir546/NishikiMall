@@ -1,0 +1,179 @@
+header
+{
+    background-color: rgb(251,251,251);
+}
+body
+{
+    background-color: rgb(251,251,251);
+}
+#reg
+{
+  margin-top: 30px;
+}
+#main-form
+{
+    text-align: center;
+    height: 500px;
+    margin: 0 auto;
+}
+.option {
+    /* background-color: #4CAF50; */
+    background: transparent;
+    border: none;
+    color: rgb(0,176,51);
+    font-weight: 2000px;
+    padding: 0px 20px;
+    text-align: center;
+    /* margin-top: 950px; */
+    /* margin-top: 90px; */
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  .button3:hover
+  {
+    text-decoration: underline;
+  }
+ 
+  .reg-control {
+    display: block;
+    /* width: 100%; */
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 5.75rem;
+    text-align: center !important ;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #F5F5F5;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  #inputPassword
+  {
+    margin-top: 30px;
+  }
+  
+  .login-btn {
+    margin-top: 30px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 39.5%;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-transform: uppercase;
+
+    background-color: rgb(0,176,51); 
+    color: white; 
+    /* font-family: 'Contrail One', cursive; */
+    font-size: 20px;
+    /* border: 2px solid rgb(245,114,36); */
+  }
+  .reg-btn  {
+    margin-top: 30px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 27%;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-transform: uppercase;
+
+    background-color: rgb(0,176,51); 
+    color: white; 
+    /* font-family: 'Contrail One', cursive; */
+    font-size: 20px;
+    /* border: 2px solid rgb(245,114,36); */
+  }
+  #simple-text
+  {
+      padding-top: 10px;
+      color: rgb(171,171,171);
+  }
+  #simple-text a
+  {
+      text-decoration: none;
+  }
+  @media only screen and (max-width: 767px)
+  {
+    header img
+    {
+        width: 70%;
+    }
+    #registration
+    {
+        /* text-align: center; */
+        margin-left: 10px;
+        margin-top: 50px;
+    }
+    #login
+    {
+        /* text-align: center; */
+        margin-left: 10px;
+        margin-top: 50px;
+    }
+    .reg-control {
+        display: block;
+        /* width: 100%; */
+        height: calc(1.5em + 0.75rem + 2px);
+        padding: 0.375rem 3.75rem;
+        text-align: center !important ;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #495057;
+        background-color: #F5F5F5;
+        background-clip: padding-box;
+        border: 1px solid #ced4da;
+        border-radius: 0.25rem;
+        transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+      }
+      .login-btn {
+        margin-top: 30px;
+        border-radius: 5px;
+        border: none;
+        padding: 5px 38%;
+        text-decoration: none;
+        display: inline-block;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        text-transform: uppercase;
+    
+        background-color: rgb(0,176,51); 
+        color: white; 
+        /* font-family: 'Contrail One', cursive; */
+        font-size: 20px;
+        /* border: 2px solid rgb(245,114,36); */
+      }
+      .reg-btn {
+        margin-top: 30px;
+        border-radius: 5px;
+        border: none;
+        padding: 5px 22%;
+        margin-right: 11px;
+        text-decoration: none;
+        display: inline-block;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        text-transform: uppercase;
+    
+        background-color: rgb(0,176,51); 
+        color: white; 
+        /* font-family: 'Contrail One', cursive; */
+        font-size: 20px;
+        /* border: 2px solid rgb(245,114,36); */
+      }
+  }
+  #social-logo
+  {
+    margin-top: 20px;
+    color: rgb(162,162,162);
+  }
